@@ -1,15 +1,4 @@
-﻿using ArticlProject.Core;
-using ArticlProject.Data;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Authorization;
-
-namespace ArticlProject.Controllers
+﻿namespace ArticlProject.Controllers
 {
     public class AuthorController : Controller
     {
