@@ -12,5 +12,9 @@ namespace ArticlProject.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Category { get; set; }
+        public DbSet<Author> Author { get; set; }
+        public DbSet<AuthorPost> AuthorPost { get; set; }
     }
 }
